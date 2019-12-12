@@ -1,0 +1,26 @@
+{
+	"name":"peterphp/json",
+	"description":"PHP Library to encode and decode JSON",
+	"license":"MIT",
+	"authors":[
+		{
+			"name":"PeterTu",
+			"email":"370237804@qq.com"
+		}
+	],
+	"minimum-stability":"stable",
+	"require":{
+		"php":">=5.3.0"
+	},
+	"autoload":{
+		"psr-4":{
+			"peterphp\\":"src/"
+		}
+	},
+	"repositories": {
+		"packagist": {
+			"type": "composer",
+			"url": "https://packagist.phpcomposer.com"
+		}
+	}
+}
